@@ -1,6 +1,10 @@
 POE::Filter::LOLCAT
 ===================
 
+1.06	Mon Apr 20 23:07:30 BST 2009
+	- Set repository in META.yml
+	- tidy up POD.
+
 1.04	Thu May  8 10:59:24 BST 2008
 	- Removed kwalitee test and added LICENSE information
 

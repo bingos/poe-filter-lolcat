@@ -6,7 +6,7 @@ use Acme::LOLCAT ();
 use base qw(POE::Filter);
 use vars qw($VERSION);
 
-$VERSION = '1.04';
+$VERSION = '1.06';
 
 sub new {
   my $class = shift;
@@ -75,7 +75,7 @@ It is intended to be used in a stackable filter, L<POE::Filter::Stackable>, with
 
 =over
 
-=item new
+=item C<new>
 
 Creates a new POE::Filter::LOLCAT object.
 
@@ -85,23 +85,23 @@ Creates a new POE::Filter::LOLCAT object.
 
 =over
 
-=item get
+=item C<get>
 
-=item get_one_start
+=item C<get_one_start>
 
-=item get_one
+=item C<get_one>
 
 TAKEZ AN ARRAYREF WHICH AR TEH CONTAINZ LINEZ OF TEXT, RETURNZ AN ARRAYREF OV LOLCAT TRANSLATED TEXT. KTHX.
 
-=item get_pending
+=item C<get_pending>
 
-Returns the filter's partial input buffer.
+RETURNZ TEH FILTRZ PARTIAL INPUT BUFFR
 
-=item put
+=item C<put>
 
 TEH PUT METHOD AR TEH NOT IMPLEMENTED. KTHNX!
 
-=item clone
+=item C<clone>
 
 MAKEZ COPY OV TEH FILTR, AND CLEARZ TEH COPYZ BUFFR.  KTHX.
 
@@ -113,9 +113,9 @@ Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
 
 =head1 LICENSE
 
-Copyright C<(c)> 2008 Chris Williams
+Copyright E<copy> 2008 Chris Williams
 
-THIZ MODULE MAY BE USED, MODIFIED, AND DISTRIBUTED UNDR TEH SAME TERMZ AZ PERL ITSELF. PLEEZ SEE TEH LICENSE THAT CAME WITH YORE PERL DISTRIBUSHUN FOR DETAILZ.
+THIZ MODULE MAY BE USED, MODIFIED, AND DISTRIBUTED UNDR TEH SAME TERMZ AZ PERL ITSELF. PLEEZ SEE TEH LICENSE THAT CAME WITH YORE PERL DISTRIBUSHUN FOR DETAILZ. KTHX.
 
 =head1 SEE ALSO
 
@@ -124,3 +124,5 @@ L<Acme::LOLCAT>
 L<POE::Filter::Stackable>
 
 L<POE::Filter::Line>
+
+=cut
