@@ -15,22 +15,34 @@ DESCRIPSHUN
     with POE::Filter::Line.
 
 CONSTRUCTOR
-    new Creates a new POE::Filter::LOLCAT object.
+    "new"
+        Creates a new POE::Filter::LOLCAT object.
 
 METHODZ
-    get
-    get_one_start
-    get_one
-        Takes an arrayref which is contains lines of text, returns an
-        arrayref of LOLCAT translated text.
+    "get"
+    "get_one_start"
+    "get_one"
+        TAKEZ AN ARRAYREF WHICH AR TEH CONTAINZ LINEZ OF TEXT, RETURNZ AN
+        ARRAYREF OV LOLCAT TRANSLATED TEXT. KTHX.
 
-    get_pending
-        Returns the filter's partial input buffer.
+    "get_pending"
+        RETURNZ TEH FILTRZ PARTIAL INPUT BUFFR
 
-    put TEH PUT METHOD AR TEH NOT IMPLEMENTED. KTHNX!
+    "put"
+        TEH PUT METHOD AR TEH NOT IMPLEMENTED. KTHNX!
+
+    "clone"
+        MAKEZ COPY OV TEH FILTR, AND CLEARZ TEH COPYZ BUFFR. KTHX.
 
 AUTHOR
     Chris "BinGOs" Williams <chris@bingosnet.co.uk>
+
+LICENSE
+    Copyright © 2008 Chris Williams
+
+    THIZ MODULE MAY BE USED, MODIFIED, AND DISTRIBUTED UNDR TEH SAME TERMZ
+    AZ PERL ITSELF. PLEEZ SEE TEH LICENSE THAT CAME WITH YORE PERL
+    DISTRIBUSHUN FOR DETAILZ. KTHX.
 
 SEE ALSO
     Acme::LOLCAT

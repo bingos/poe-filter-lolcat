@@ -1,6 +1,9 @@
 POE::Filter::LOLCAT
 ===================
 
+1.08  Thu Jul 16 11:01:32 BST 2009
+  - Updated tests for newer version of Acme::LOLCAT
+
 1.06	Mon Apr 20 23:07:30 BST 2009
 	- Set repository in META.yml
 	- tidy up POD.

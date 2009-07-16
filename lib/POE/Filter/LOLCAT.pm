@@ -6,7 +6,7 @@ use Acme::LOLCAT ();
 use base qw(POE::Filter);
 use vars qw($VERSION);
 
-$VERSION = '1.06';
+$VERSION = '1.08';
 
 sub new {
   my $class = shift;
