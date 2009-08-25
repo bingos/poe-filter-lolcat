@@ -1,6 +1,9 @@
 POE::Filter::LOLCAT
 ===================
 
+1.10  Tue Aug 25 16:38:10 BST 2009
+  - Fix the malformed META.yml file
+
 1.08  Thu Jul 16 11:01:32 BST 2009
   - Updated tests for newer version of Acme::LOLCAT
 

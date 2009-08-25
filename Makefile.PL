@@ -11,7 +11,7 @@ perl_version '5.006';
 build_requires 'Test::More' => 0.47;
 requires 'POE' => 1.004;
 requires 'POE::Filter' => 0;
-requires 'Acme::LOLCAT' => 0.0.5;
+requires 'Acme::LOLCAT' => '0.0.5';
 auto_provides;
 githubmeta;
 WriteAll;
